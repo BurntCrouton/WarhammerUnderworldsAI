@@ -1,4 +1,4 @@
-public class myClass() {
+public class myClass {
     public static void main(String args[]) {
       int numBoardHexesY;
       int numBoardHexesX;
