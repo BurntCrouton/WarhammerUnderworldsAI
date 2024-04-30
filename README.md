@@ -1,2 +1,2 @@
-# underworldsAI-V1
+# underworldsAI
 Warhammer Underworlds AI V1 (For Vassal)
