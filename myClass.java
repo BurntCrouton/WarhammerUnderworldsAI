@@ -1,12 +1,12 @@
 public class myClass {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
       int numBoardHexesY;
       int numBoardHexesX;
       int numSingleBoardHexesY;
       int numSingleBoardHexesX;
       
-      bool boardLong = false; 
-      bool boardWide = false; 
+      boolean boardLong = false; 
+      boolean boardWide = true; 
       
       
       int[] dualLengthBoard = {5, 8, 5, 16};
