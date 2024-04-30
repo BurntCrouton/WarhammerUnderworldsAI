@@ -1,3 +1,2 @@
-# WarhammerUnderworldsAI
+# Warhammer Underworlds AI: Vassal Version
 
-## Warhammer Underworlds AI: Vassal Version
