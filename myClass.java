@@ -6,7 +6,7 @@ public class myClass {
       int numSingleBoardHexesX;
       
       boolean boardLong = false; 
-      boolean boardWide = true; 
+      boolean boardWide = true; // the different Board layouts possible in Warhammer Underworlds
       
       
       int[] dualLengthBoard = {5, 8, 5, 16};
