@@ -16,7 +16,7 @@ public class myClass {
       Scanner myObj = new Scanner(System.in); 
       System.out.println("Enter preferred board Format: ");
       String boardFormat = myObj.nextLine();
-
+      
       if(boardFormat == "boardLong") {
         numBoardHexesY = dualLengthBoard[3];
         numBoardHexesX = dualLengthBoard[2];
@@ -39,6 +39,8 @@ public class myClass {
         System.out.println(numBoardHexesX);
         System.out.println(numSingleBoardHexesY);
         System.out.println(numSingleBoardHexesX);
+      } else if(boardFormat != "boardWide" && boardFormat != "boardLong") {
+        System.out.println("404 Board Format not found");
       }
     }
 }
