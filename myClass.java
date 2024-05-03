@@ -8,7 +8,7 @@ public class myClass {
       int numBoardHexesX;
       int numSingleBoardHexesY;
       int numSingleBoardHexesX;
-      String globalboardFormat;
+      String globalboardFormat = " ";
       
       // boolean boardLong = false; 
       // boolean boardWide = false; // the different Board layouts possible in Warhammer Underworlds
@@ -20,11 +20,11 @@ public class myClass {
       System.out.println("Enter preferred board Format: ");
       
       try {
-          TimeUnit.SECONDS.sleep(5);
-          String boardFormat = myObj.nextLine();
-          globalboardFormat = boardFormat;
+        TimeUnit.SECONDS.sleep(5);
+        String boardFormat = myObj.nextLine();
+        globalboardFormat = boardFormat;
       } catch (InterruptedException e) {
-            System.err.format("IOException: %s%n", e);
+        System.err.format("IOException: %s%n", e);
       }
       
       
