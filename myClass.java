@@ -1,7 +1,6 @@
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 
-
 public class myClass {
     public static void main(String[] args) {
       int numBoardHexesY;
@@ -26,7 +25,6 @@ public class myClass {
       } catch (InterruptedException e) {
         System.err.format("IOException: %s%n", e);
       }
-      
       
       if(globalboardFormat == "boardLong") {
         numBoardHexesY = dualLengthBoard[3];
