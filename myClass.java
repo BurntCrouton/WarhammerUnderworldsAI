@@ -18,11 +18,16 @@ public class myClass {
       String boardFormat = myObj.nextLine();
 
       if(boardFormat == "boardLong") {
-        System.out.println("Board Format is: " + boardFormat);
         numBoardHexesY = dualLengthBoard[3];
         numBoardHexesX = dualLengthBoard[2];
         numSingleBoardHexesY = dualLengthBoard[1];
         numSingleBoardHexesX = dualLengthBoard[0];
+
+        System.out.println("Board Format is: " + boardFormat); 
+        System.out.println(numBoardHexesY);
+        System.out.println(numBoardHexesX);
+        System.out.println(numSingleBoardHexesY);
+        System.out.println(numSingleBoardHexesX);
       } else if(boardFormat == "boardWide") {
         numBoardHexesY = dualWidthBoard[3];
         numBoardHexesX = dualWidthBoard[2];
