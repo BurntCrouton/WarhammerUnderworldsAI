@@ -17,14 +17,14 @@ public class myClass {
 
         Scanner myObj = new Scanner(System.in); 
         System.out.println("Enter preferred board Format: ");
+        String boardFormat = myObj.nextLine();
+        globalboardFormat = boardFormat;
       
         try {
             TimeUnit.SECONDS.sleep(5);
-            String boardFormat = myObj.nextLine();
-            globalboardFormat = boardFormat;
         } catch (InterruptedException e) {
             System.err.format("IOException: %s%n", e);
-        }
+        } 
       
         if(globalboardFormat == "boardLong") {
             numBoardHexesY = dualLengthBoard[3];
