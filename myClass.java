@@ -61,13 +61,38 @@ public class Main {
                 case "NO":
                     System.out.println("Idk");
                     break;
+                case "LEMME PLAY":
+                    System.out.println();
+                    break;
                 default:
                     System.out.println("Invalid");
             }
         }
 
-        if (answer1.equals("NO")) {
+        if (answer1.equals("LEMME PLAY")) {
+            System.out.println("Printing dual-width Board: ");
+            String[] strArr = {"      /     \\       /     \\ ", " _ _ /       \\ _ _ /       \\", "     \\       /     \\       /", "      \\ _ _ /       \\ _ _ / "};
 
+            for (int i = 0; i < strArr.length; i++){
+                String boardHexes = strArr[i] + strArr[i] + strArr[i] + strArr[i];
+                System.out.println(boardHexes);
+            }
+            for (int i2 = 0; i2 < strArr.length; i2++){
+                String boardHexes = strArr[i2] + strArr[i2] + strArr[i2] + strArr[i2];
+                System.out.println(boardHexes);
+            }
+            for (int i3 = 0; i3 < strArr.length; i3++){
+                String boardHexes = strArr[i3] + strArr[i3] + strArr[i3] + strArr[i3];
+                System.out.println(boardHexes);
+            }
+            for (int i4 = 0; i4 < strArr.length; i4++){
+                String boardHexes = strArr[i4] + strArr[i4] + strArr[i4] + strArr[i4];
+                System.out.println(boardHexes);
+            }
+            for (int i5 = 0; i5 < strArr.length; i5++){
+                String boardHexes = strArr[i5] + strArr[i5] + strArr[i5] + strArr[i5];
+                System.out.println(boardHexes);
+            }
         }
 
         /* try {
