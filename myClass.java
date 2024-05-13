@@ -12,7 +12,7 @@ public class Main {
         // boolean boardLong = false;
         // boolean boardWide = false; // the different Board layouts possible in Warhammer Underworlds
 
-        int[] dualLengthBoard = {5, 8, 5, 16};
+        int[] dualLengthBoard = {5, 8, 5, 16}; // x, y, width, height in Hexes
         int[] dualWidthBoard = {5, 8, 10, 8};
 
         Scanner myObj = new Scanner(System.in);
